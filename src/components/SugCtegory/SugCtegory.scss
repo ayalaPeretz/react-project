@@ -1,0 +1,45 @@
+   body{
+    background-color: white;
+   }
+      .item2 {
+        position: relative;
+        width: 80%;
+        height: 380px;
+        margin: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.128);
+        transition: transform 0.3s ease-in-out;
+      }
+      
+      .item:hover {
+        transform: translateY(-5px);
+      }
+      
+      .category-title {
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        right: 0;
+        font-size: 24px;
+        height: 50px;
+        font-weight: bold;
+        color: white;
+       background-color: black;
+        padding: 10px 0;
+        margin: -11px;
+        text-align:center ;
+      }
+      .img-fluid {
+        // height: 200px;
+        width: 700px;
+      }
+      .details{
+        font-size: larger;
+        font-weight: bold;
+        text-align: center;
+        padding: 40px;
+        .dButton{
+          margin-top: 80px;
+        }
+      }
+      

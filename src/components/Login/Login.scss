@@ -1,0 +1,142 @@
+.Login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .form-container {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: left;
+
+    h2 {
+      margin-bottom: 20px;
+      font-size: 24px;
+      color: #333;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+      color: #555;
+    }
+
+    .form-control {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    .radio-group {
+      margin-bottom: 15px;
+
+      label {
+        display: inline-block;
+        margin-right: 15px;
+        font-weight: normal;
+
+        input {
+          margin-right: 5px;
+        }
+      }
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 15px;
+      font-size: 16px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+    
+  }
+  
+}
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+}
+
+.container {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 60vh;
+// background-color: #fff;
+padding: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+color: #333;
+}
+
+.logo {
+width: 350px;
+height: 280px;
+margin-left: 30px;
+}
+
+.form-group {
+margin-bottom: 15px;
+width: 100%;
+}
+
+label {
+display: block;
+margin-bottom: 5px;
+color: #555;
+}
+
+input[type="text"],
+input[type="password"] {
+width: calc(100% - 20px);
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+button {
+padding: 10px 20px;
+border: none;
+background-color: gold;
+color: #fff;
+border-radius: 10%;
+font-size: 16px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: rgba(255, 217, 0, 0.562);
+}
+
+.footer {
+margin-top: 20px;
+color: #777;
+font-size: 14px;
+}
+
+.footer a {
+color: #007bff;
+text-decoration: none;
+}
+
+.footer a:hover {
+text-decoration: underline;
+}
